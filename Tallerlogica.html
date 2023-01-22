@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+    <!-- ========== Ejercicio 1 ========== -->
+   
+<Section class="container mt-5">
+    <h2> Ejercicio 1 </h2>
+    <div class=" row d-flex">
+    
+    <div class="col-3">
+        <input type="text" placeholder="Digite un número" class="form-control" id="digito_ingresado">   
+    </div>
+    <div class="col-2 btn btn-dark justify-content-center align-items-center">
+        <span class="" onclick="sumar()"> sumar </span>
+    </div>
+    <div class="col-3">
+        <input type="text" class="form-control" id="resultado">
+    </div>
+</div>
+</Section>
+<!-- ========== Fin ejercicio 1 ========== -->
+
+<!-- ========== Ejercicio 2 ========== -->
+
+<section class="container mt-5">
+    <h2>Ejercicio 2</h2>
+    <div class="row d-flex">
+    <div class="col-4 mt-3">
+        <input type="text" placeholder="Digite un número" class="form-control" id="digito_ingresado2">    
+    </div>
+    <div class="btn btn-danger mt-3 col-4" onclick="verificarnumero()">
+        <span >Revisar</span>
+    </div>
+</div>
+</section>
+<!-- ========== fin Ejercicio 2 ========== -->
+
+
+<!-- ========== Ejercicio 3========== -->
+<section class="container">
+    <h2 class="mt-5">Ejercicio 3</h2>
+    <h6 class="mt-3">Ingresa tus datos para obtener un premio de pepitos pizza</h6>
+    <div class="row d-flex mt-3">
+   <div class="d-flex col-4">
+    <span>Edad</span> <input type="text" class="form-control mx-3" id="edad_ingresada"> <span>años</span>
+   </div> 
+<div class="d-flex">
+    <label for=""><input type="checkbox" id="femenino"> Femenino </label>
+    <label for=""><input type="checkbox" id="masculino"> Masculino</label>
+</div>
+<div>
+    <button class="btn mt-3 btn-primary" onclick="premios()">Redimir premio</button>
+  </div>
+</section>
+<!-- ========== End ejercicio 3 ========== -->
+
+<!-- ========== Ejercicio 5 ========== -->
+<section class="container">
+    <h2 class="mt-5">Ejercicio 5</h2>
+    <div class="col-lg-2">
+        <span>Ingrese un número</span> <input type="text" class="form-control" id="numeroamultiplicar">
+    </div>
+    <div>
+        <button class="btn mt-3 btn-primary" onclick="escribirtablademultiplicar()">Cacular</button>
+      </div>
+    <div id="resultadomultiplicacion"></div>
+</section>
+<!-- ========== End ejercicio 5 ========== -->
+
+<!-- ========== Ejercicio 6 ========== -->
+<section class="container">
+    <h2 class="mt-5">Ejercicio 6</h2>
+    <div class="d-flex col-4 mt-3">
+        <span>Ingrese promedio</span> <input type="text" class="form-control" id="promedio">
+    </div>
+    <div>
+        <button class="btn mt-3 btn-primary" onclick="descuentosmatricula()">Cacular</button>
+      </div>
+    <div id="Resultado matricula"> </div>
+</section>
+<!-- ========== End ejercicio 6 ========== -->
+
+</body>
+
+<footer class="mt-5">
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="ASSETS/JS/Code.js"></script>
+</html>
